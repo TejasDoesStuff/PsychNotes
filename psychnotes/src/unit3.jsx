@@ -1,4 +1,4 @@
-export default function BioPsych() {
+export default function unit3() {
     return (
         <div className="w-full h-full p-12">
             <h1 className="text-2xl">Biological Foundations of Psychology</h1>

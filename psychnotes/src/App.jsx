@@ -1,6 +1,7 @@
 import React from "react";
-import SensePerception from "./senseperception";
-import BioPsych from "./biopsych";
+import Unit1 from "./unit1";
+import Unit3 from "./unit3";
+import Unit4 from "./unit4";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export default function App() {
@@ -8,8 +9,9 @@ export default function App() {
     <div className="w-screen h-screen text-black">
       <Router>
         <Routes>
-          <Route path="/senseperception" element={<SensePerception />} />
-          <Route path="/biopsych" element={<BioPsych />} />
+          <Route path="/unit1" element={<Unit1 />} />
+          <Route path="/unit3" element={<Unit3 />} />
+          <Route path="/unit4" element={<Unit4 />} />
         </Routes>
       </Router>
     </div>
