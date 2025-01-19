@@ -1,7 +1,15 @@
 import React from "react";
-import Unit1 from "./unit1";
-import Unit3 from "./unit3";
-import Unit4 from "./unit4";
+
+//PSYCH
+import Unit1 from "./APPsych/unit1";
+import Unit3 from "./APPsych/unit3";
+import Unit4 from "./APPsych/unit4";
+
+//LANG
+import Ethics from "./APLang/ethics";
+import People from "./APLang/people";
+
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export default function App() {
@@ -9,9 +17,14 @@ export default function App() {
     <div className="w-screen h-screen text-black">
       <Router>
         <Routes>
-          <Route path="/unit1" element={<Unit1 />} />
-          <Route path="/unit3" element={<Unit3 />} />
-          <Route path="/unit4" element={<Unit4 />} />
+          {/* Psych */}
+          <Route path="/psych/unit1" element={<Unit1 />} />
+          <Route path="/psych/unit3" element={<Unit3 />} />
+          <Route path="/psych/unit4" element={<Unit4 />} />
+
+          {/* Lang */}
+          <Route path="/lang/ethics" element={<Ethics />} />
+          <Route path="/lang/people" element={<People />} />
         </Routes>
       </Router>
     </div>
