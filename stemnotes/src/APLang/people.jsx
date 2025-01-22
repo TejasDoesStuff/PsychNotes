@@ -109,7 +109,7 @@ export default function people() {
           Sam Harris - Science-based ethics
         </div>
         <div className="w-full p-8 border-b border-gray-200">
-          John Stuart Mill - Utilitarianism
+          John Stuart Mill - Utilitarianism - Pig Man, Intellectual Pleasures are better than Physical pleasures. Trolley Problem.
         </div>
         <div className="w-full p-8 border-b border-gray-200">
           Kant - Kantian Ethics
