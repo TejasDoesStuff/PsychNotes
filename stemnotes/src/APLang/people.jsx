@@ -103,10 +103,10 @@ export default function people() {
           Ruth Benedict - “A Defense of Moral Relativism” - Cultural Relativism
         </div>
         <div className="w-full p-8 border-b border-gray-200">
-          Louis Pojman - Moral Objectivism
+          Louis Pojman - Ethical Relativism
         </div>
         <div className="w-full p-8 border-b border-gray-200">
-          Sam Harris - Science-based ethics
+          Sam Harris - Science-based ethics - Different cultures portrayal of women, 
         </div>
         <div className="w-full p-8 border-b border-gray-200">
           John Stuart Mill - Utilitarianism - Pig Man, Intellectual Pleasures are better than Physical pleasures. Trolley Problem.
